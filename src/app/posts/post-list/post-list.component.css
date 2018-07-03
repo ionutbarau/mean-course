@@ -1,0 +1,12 @@
+:host {
+  display: block;
+  margin: auto;
+  margin-top: 1rem;
+  width: 87%;
+}
+
+.info-text {
+  text-align: center;
+}
+
+
