@@ -8,6 +8,7 @@ import {FormsModule} from "@angular/forms";
 import {HeaderComponent} from "./header/header.component";
 import {PostListComponent} from "./posts/post-list/post-list.component";
 import {PostsService} from "./posts/posts.service";
+import {HttpClientModule} from "@angular/common/http";
 
 
 @NgModule({
@@ -25,9 +26,10 @@ import {PostsService} from "./posts/posts.service";
     MatCardModule,
     MatButtonModule,
     MatToolbarModule,
-    MatExpansionModule
+    MatExpansionModule,
+    HttpClientModule
   ],
-  providers: [PostsService],
+  providers: [],//here you can inject services also
   bootstrap: [AppComponent]
 })
 export class AppModule {
